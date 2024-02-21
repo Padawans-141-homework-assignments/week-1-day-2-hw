@@ -7,7 +7,7 @@
 }
 
 /* Controls the spacing of the theater block */
-.nav-theater {
+#nav-theater {
     display: flex;
     flex-basis: 33%;
 }
@@ -20,7 +20,7 @@
 }
 
 /* Controls the width size and auto adjust of the height */
-.img-prop {
+#img-prop {
     width: 1329px;
     height: auto;
 }
@@ -42,7 +42,7 @@
 }
 
 /* Controls the background/border/alignment of the date div */
-.date {
+#date {
     background-color: #F7F7F7;
     border: solid black 1px;
     align-content: center;
