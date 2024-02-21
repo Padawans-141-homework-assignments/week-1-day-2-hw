@@ -19,17 +19,20 @@
     flex-basis: 10%;
 }
 
-/* #img {
-    width: auto;
+/* Controls the width size and auto adjust of the height */
+.img-prop {
+    width: 1329px;
     height: auto;
-    display: block;
-    margin: 0 auto;
-} */
+}
 
-/* .img-text {
+/* Controls the positioning of the text overlapping the image */
+#img-text {
+    color: white;
     position: absolute;
-    justify-content: center;
-} */
+    top: 41%;
+    left: 20%;
+    font-size: 59px;
+}
 
 /* Controls the positioning of the month/year div */
 #date-info {
