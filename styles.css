@@ -1,13 +1,85 @@
-/* .flexbox-container {
+/* controls the details of the nav-bar */
+#nav-segment {
     display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+/* Controls the spacing of the theater block */
+.nav-theater {
+    display: flex;
+    flex-basis: 33%;
+}
+
+/* Controls the spacing of the rest of the nav-bar */
+.nav-other {
+    display: flex;
+    align-items: center;
+    flex-basis: 10%;
+}
+
+/* #img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 } */
 
-/* .grid-container {
+/* .img-text {
+    position: absolute;
+    justify-content: center;
+} */
+
+/* Controls the positioning of the month/year div */
+#date-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Controls the background/border/alignment of the date div */
+.date {
+    background-color: #F7F7F7;
+    border: solid black 1px;
+    align-content: center;
+    padding: 5px;
+    width: 50%;
+}
+
+/* Controls the display the content of the body follows */
+#show-info {
     display: grid;
-} */
+}
 
+/* Controls the amount of columns/width of the border bottom/and placing of contents */
+.show {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: black 1px solid;
+    place-self: center;
+    width: 50%;
+}
 
-/* Enables the use of the Roboto font for the web page */
-body {
-    font-family: 'Roboto', Roboto;
+/* Controls the padding around the body image */
+.show-img {
+    padding: 20px;
+}
+
+/* Adjusts the size of the image */
+.img-size {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Controls the placement of the button */
+.show-button {
+    place-self: center;
+}
+
+/* Controls the background/text color of the button and the padding around the text */
+.button-details {
+    background-color: #ebb625;
+    color: white;
+    padding: 10px;
 }
