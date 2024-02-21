@@ -1,3 +1,16 @@
+/* Sets the font of the web page */
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Removes the white border around the website */
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* controls the details of the nav-bar */
 #nav-segment {
     display: flex;
@@ -21,7 +34,7 @@
 
 /* Controls the width size and auto adjust of the height */
 #img-prop {
-    width: 1329px;
+    width: 1345px;
     height: auto;
 }
 
@@ -85,4 +98,57 @@
     background-color: #ebb625;
     color: white;
     padding: 10px;
+}
+
+/* Controls general details of the footer */
+footer {
+    background-color: black;
+    color: white;
+}
+
+/* Controls amount of columns, text alignment and padding of the foot container */
+#foot-container {
+    padding: 50px;
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Controls the spacing around the map embed */
+#embed-space {
+    padding: 75px;
+}
+
+/* Controls the alignment of the footer text */
+.section {
+    align-content: center;
+}
+
+/* Adds extra padding around all the relevant tags */
+.tag-padding {
+    padding: 10px;
+}
+
+/* Controls the size of the icons 1*/
+.foot-icon {
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: auto;
+}
+
+/* Controls the size of the icons 2*/
+.foot-icon2 {
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: auto;
+}
+
+/* Controls the size of the icons 3*/
+.foot-icon3 {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 25px;
 }
