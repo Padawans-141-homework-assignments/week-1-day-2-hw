@@ -6,3 +6,8 @@
     display: grid;
 } */
 
+
+/* Enables the use of the Roboto font for the web page */
+body {
+    font-family: 'Roboto', Roboto;
+}
