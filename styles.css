@@ -34,7 +34,7 @@ body {
 
 /* Controls the width size and auto adjust of the height */
 #img-prop {
-    width: 1345px;
+    max-width: 100%;
     height: auto;
 }
 
